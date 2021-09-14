@@ -1,0 +1,9 @@
+{
+	"name": "TrialdataFactory2",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e36553a-fcd0-4c41-b37a-365cbea384e1",
+		"tenantId": "dbd6664d-4eb9-46eb-99d8-5c43ba153c61"
+	}
+}
