@@ -1,0 +1,34 @@
+{
+	"name": "Inputcsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Input",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "Nationality",
+				"type": "String"
+			},
+			{
+				"name": "Sex",
+				"type": "String"
+			}
+		]
+	}
+}
